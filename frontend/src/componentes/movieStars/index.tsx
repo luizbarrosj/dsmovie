@@ -4,8 +4,6 @@ import { ReactComponent as StarEmpty} from 'assets/img/star-empty.svg';
 import './styles.css'
 function MovieStars(){
 
-
-
 return(
 
 <div className="dsmovie-stars-container">
