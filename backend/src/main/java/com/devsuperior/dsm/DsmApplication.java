@@ -8,6 +8,7 @@ public class DsmApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DsmApplication.class, args);
+
 	}
 
 }
