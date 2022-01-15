@@ -1,5 +1,5 @@
 import MovieStars from "componentes/movieStars";
-import { type } from "os";
+
 import './styles.css';
 
 
