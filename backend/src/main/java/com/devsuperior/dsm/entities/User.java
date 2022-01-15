@@ -1,6 +1,6 @@
 package com.devsuperior.dsm.entities;
 
-import javax.persistence.Column;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,10 +11,14 @@ import javax.persistence.Table;
 @Table(name = "tb_user")
 public class User {
     @Id
-    @Column(name = "user_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String email;
+    
+    public User() {
+    	
+    	
+    }
 
     public User(Long id, String email) {
         this.id = id;
